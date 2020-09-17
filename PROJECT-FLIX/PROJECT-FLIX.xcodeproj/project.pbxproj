@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CDD279A250AF62F006CAE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2799250AF62F006CAE96 /* AppDelegate.swift */; };
+		6CDD279C250AF62F006CAE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD279B250AF62F006CAE96 /* SceneDelegate.swift */; };
+		6CDD279E250AF62F006CAE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD279D250AF62F006CAE96 /* ViewController.swift */; };
+		6CDD27A1250AF62F006CAE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD279F250AF62F006CAE96 /* Main.storyboard */; };
+		6CDD27A3250AF631006CAE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD27A2250AF631006CAE96 /* Assets.xcassets */; };
+		6CDD27A6250AF631006CAE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD27A4250AF631006CAE96 /* LaunchScreen.storyboard */; };
+		6CDD27B1250AF632006CAE96 /* PROJECT_FLIXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD27B0250AF632006CAE96 /* PROJECT_FLIXTests.swift */; };
+		6CDD27BC250AF632006CAE96 /* PROJECT_FLIXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD27BB250AF632006CAE96 /* PROJECT_FLIXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CDD27AD250AF632006CAE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDD278E250AF62F006CAE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDD2795250AF62F006CAE96;
+			remoteInfo = "PROJECT-FLIX";
+		};
+		6CDD27B8250AF632006CAE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDD278E250AF62F006CAE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDD2795250AF62F006CAE96;
+			remoteInfo = "PROJECT-FLIX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CDD2796250AF62F006CAE96 /* PROJECT-FLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PROJECT-FLIX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD2799250AF62F006CAE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CDD279B250AF62F006CAE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CDD279D250AF62F006CAE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CDD27A0250AF62F006CAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CDD27A2250AF631006CAE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CDD27A5250AF631006CAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CDD27A7250AF631006CAE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDD27AC250AF632006CAE96 /* PROJECT-FLIXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PROJECT-FLIXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD27B0250AF632006CAE96 /* PROJECT_FLIXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECT_FLIXTests.swift; sourceTree = "<group>"; };
+		6CDD27B2250AF632006CAE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDD27B7250AF632006CAE96 /* PROJECT-FLIXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PROJECT-FLIXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD27BB250AF632006CAE96 /* PROJECT_FLIXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECT_FLIXUITests.swift; sourceTree = "<group>"; };
+		6CDD27BD250AF632006CAE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CDD2793250AF62F006CAE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27A9250AF632006CAE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27B4250AF632006CAE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CDD278D250AF62F006CAE96 = {
+			isa = PBXGroup;
+			children = (
+				6CDD2798250AF62F006CAE96 /* PROJECT-FLIX */,
+				6CDD27AF250AF632006CAE96 /* PROJECT-FLIXTests */,
+				6CDD27BA250AF632006CAE96 /* PROJECT-FLIXUITests */,
+				6CDD2797250AF62F006CAE96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CDD2797250AF62F006CAE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2796250AF62F006CAE96 /* PROJECT-FLIX.app */,
+				6CDD27AC250AF632006CAE96 /* PROJECT-FLIXTests.xctest */,
+				6CDD27B7250AF632006CAE96 /* PROJECT-FLIXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CDD2798250AF62F006CAE96 /* PROJECT-FLIX */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2799250AF62F006CAE96 /* AppDelegate.swift */,
+				6CDD279B250AF62F006CAE96 /* SceneDelegate.swift */,
+				6CDD279D250AF62F006CAE96 /* ViewController.swift */,
+				6CDD279F250AF62F006CAE96 /* Main.storyboard */,
+				6CDD27A2250AF631006CAE96 /* Assets.xcassets */,
+				6CDD27A4250AF631006CAE96 /* LaunchScreen.storyboard */,
+				6CDD27A7250AF631006CAE96 /* Info.plist */,
+			);
+			path = "PROJECT-FLIX";
+			sourceTree = "<group>";
+		};
+		6CDD27AF250AF632006CAE96 /* PROJECT-FLIXTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD27B0250AF632006CAE96 /* PROJECT_FLIXTests.swift */,
+				6CDD27B2250AF632006CAE96 /* Info.plist */,
+			);
+			path = "PROJECT-FLIXTests";
+			sourceTree = "<group>";
+		};
+		6CDD27BA250AF632006CAE96 /* PROJECT-FLIXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD27BB250AF632006CAE96 /* PROJECT_FLIXUITests.swift */,
+				6CDD27BD250AF632006CAE96 /* Info.plist */,
+			);
+			path = "PROJECT-FLIXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDD2795250AF62F006CAE96 /* PROJECT-FLIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDD27C0250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIX" */;
+			buildPhases = (
+				6CDD2792250AF62F006CAE96 /* Sources */,
+				6CDD2793250AF62F006CAE96 /* Frameworks */,
+				6CDD2794250AF62F006CAE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PROJECT-FLIX";
+			productName = "PROJECT-FLIX";
+			productReference = 6CDD2796250AF62F006CAE96 /* PROJECT-FLIX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CDD27AB250AF632006CAE96 /* PROJECT-FLIXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDD27C3250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIXTests" */;
+			buildPhases = (
+				6CDD27A8250AF632006CAE96 /* Sources */,
+				6CDD27A9250AF632006CAE96 /* Frameworks */,
+				6CDD27AA250AF632006CAE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDD27AE250AF632006CAE96 /* PBXTargetDependency */,
+			);
+			name = "PROJECT-FLIXTests";
+			productName = "PROJECT-FLIXTests";
+			productReference = 6CDD27AC250AF632006CAE96 /* PROJECT-FLIXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CDD27B6250AF632006CAE96 /* PROJECT-FLIXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDD27C6250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIXUITests" */;
+			buildPhases = (
+				6CDD27B3250AF632006CAE96 /* Sources */,
+				6CDD27B4250AF632006CAE96 /* Frameworks */,
+				6CDD27B5250AF632006CAE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDD27B9250AF632006CAE96 /* PBXTargetDependency */,
+			);
+			name = "PROJECT-FLIXUITests";
+			productName = "PROJECT-FLIXUITests";
+			productReference = 6CDD27B7250AF632006CAE96 /* PROJECT-FLIXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CDD278E250AF62F006CAE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jonathan Cabrera";
+				TargetAttributes = {
+					6CDD2795250AF62F006CAE96 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6CDD27AB250AF632006CAE96 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6CDD2795250AF62F006CAE96;
+					};
+					6CDD27B6250AF632006CAE96 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6CDD2795250AF62F006CAE96;
+					};
+				};
+			};
+			buildConfigurationList = 6CDD2791250AF62F006CAE96 /* Build configuration list for PBXProject "PROJECT-FLIX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CDD278D250AF62F006CAE96;
+			productRefGroup = 6CDD2797250AF62F006CAE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CDD2795250AF62F006CAE96 /* PROJECT-FLIX */,
+				6CDD27AB250AF632006CAE96 /* PROJECT-FLIXTests */,
+				6CDD27B6250AF632006CAE96 /* PROJECT-FLIXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CDD2794250AF62F006CAE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD27A6250AF631006CAE96 /* LaunchScreen.storyboard in Resources */,
+				6CDD27A3250AF631006CAE96 /* Assets.xcassets in Resources */,
+				6CDD27A1250AF62F006CAE96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27AA250AF632006CAE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27B5250AF632006CAE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CDD2792250AF62F006CAE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD279E250AF62F006CAE96 /* ViewController.swift in Sources */,
+				6CDD279A250AF62F006CAE96 /* AppDelegate.swift in Sources */,
+				6CDD279C250AF62F006CAE96 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27A8250AF632006CAE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD27B1250AF632006CAE96 /* PROJECT_FLIXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD27B3250AF632006CAE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD27BC250AF632006CAE96 /* PROJECT_FLIXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CDD27AE250AF632006CAE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDD2795250AF62F006CAE96 /* PROJECT-FLIX */;
+			targetProxy = 6CDD27AD250AF632006CAE96 /* PBXContainerItemProxy */;
+		};
+		6CDD27B9250AF632006CAE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDD2795250AF62F006CAE96 /* PROJECT-FLIX */;
+			targetProxy = 6CDD27B8250AF632006CAE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CDD279F250AF62F006CAE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDD27A0250AF62F006CAE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		6CDD27A4250AF631006CAE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDD27A5250AF631006CAE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CDD27BE250AF632006CAE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CDD27BF250AF632006CAE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CDD27C1250AF632006CAE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CDD27C2250AF632006CAE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CDD27C4250AF632006CAE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIXTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PROJECT-FLIX.app/PROJECT-FLIX";
+			};
+			name = Debug;
+		};
+		6CDD27C5250AF632006CAE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIXTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PROJECT-FLIX.app/PROJECT-FLIX";
+			};
+			name = Release;
+		};
+		6CDD27C7250AF632006CAE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PROJECT-FLIX";
+			};
+			name = Debug;
+		};
+		6CDD27C8250AF632006CAE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PROJECT-FLIXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonathanCabrera.PROJECT-FLIXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PROJECT-FLIX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CDD2791250AF62F006CAE96 /* Build configuration list for PBXProject "PROJECT-FLIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD27BE250AF632006CAE96 /* Debug */,
+				6CDD27BF250AF632006CAE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDD27C0250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD27C1250AF632006CAE96 /* Debug */,
+				6CDD27C2250AF632006CAE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDD27C3250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD27C4250AF632006CAE96 /* Debug */,
+				6CDD27C5250AF632006CAE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDD27C6250AF632006CAE96 /* Build configuration list for PBXNativeTarget "PROJECT-FLIXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD27C7250AF632006CAE96 /* Debug */,
+				6CDD27C8250AF632006CAE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CDD278E250AF62F006CAE96 /* Project object */;
+}
